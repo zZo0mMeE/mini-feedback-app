@@ -55,7 +55,7 @@ export default function SubmitFeedbackPage() {
   return (
     <>
       <Header />
-      <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center bg-gradient-to-b from-pink-50 to-blue-50 p-4">
+      <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center bg-gradient-to-b from-pink-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 p-4">
         <Card className="w-full max-w-lg">
           <CardHeader>
             <CardTitle>Submit Feedback</CardTitle>
@@ -92,12 +92,11 @@ export default function SubmitFeedbackPage() {
                     placeholder="Enter your name"
                     value={authorName}
                     onChange={(e) => setAuthorName(e.target.value)}
-                    required
                     disabled={!slug || isLoading}
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="feedback">Your Feedback</Label>
+                  <Label htmlFor="feedback">Your Feedback<span className="text-red-500">*</span></Label>
                   <Textarea
                     id="feedback"
                     placeholder="Share your thoughts, suggestions, or feedback"
