@@ -6,7 +6,7 @@ A minimal full-stack web application that allows users to submit feedback and vi
 
 - **Yauheni Ivus**
   
-- Email: [s97819@pollub.edu.pl](mailto:s97819@pollub.edu.pl)  
+- Email: [eugeneivus1@gmail.com](mailto:eugeneivus1@gmail.com)  
 - Location: Lublin, Poland
 
 ## 🛠️ Technologies Used
